@@ -410,10 +410,19 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @media (max-width: 891px){
   .container{
-    max-width: 650px;
+    max-width: 90%;
+  }
+  .main_text-title{
+    font-size: 32px;
+  }
+  .main_text-subtitle{
+    font-size: 18px;
+  }
+  .main_form{
+    margin-left: 30px;
   }
 }
-@media (max-width: 768px){
+@media (max-width: 795px){
   .container{
     max-width: 95%;
     margin: 0 30px;
@@ -456,6 +465,10 @@ input[type=number]::-webkit-outer-spin-button {
   }
   .main_form{
     width: 100%;
+  }
+  .modal_footer{
+    padding-left: 38px;
+    padding-right: 38px;
   }
 }
 
